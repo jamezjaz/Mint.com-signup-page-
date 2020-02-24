@@ -1,0 +1,46 @@
+body{
+    background-color: #eceef1;
+}
+.navigation{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 10px 30px;
+    margin: 0;
+}
+.Have-account{
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    /* font-weight: 20; */
+    line-height: 1.2em;
+    padding-left: 20px;
+}
+.sign-in{
+    background-color: rgb(9, 85, 226);
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    border-width: 0.03rem;
+}
+.inuit-logo{
+    background-color: red;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */ 
+    height: 50px;
+}
+.logos{
+    background-color:blue;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
