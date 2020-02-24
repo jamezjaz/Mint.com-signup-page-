@@ -1,0 +1,9 @@
+body{
+    width: auto;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+.logo{
+    float: inherit;
+}
