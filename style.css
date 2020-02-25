@@ -85,9 +85,7 @@ i{
 }
 #learn-more{
     color: rgb(9, 85, 226);
-    padding: 0 10px;
     font-size: 10px;
-    padding:0;
 }
 #learn-more:hover{
     cursor: pointer;
@@ -142,29 +140,45 @@ form{
     background-color:rgb(218, 221, 226);
     align-items: center;
 }
-.footer-links{
+footer{
+    height:90px;
+}
+.footer-buttons{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-top: 20px;
 }
-a{
-    color: black;
-    padding: 0 10px;
-}
-.footer-links:hover{
+.footer-buttons:hover{
     cursor: pointer;
     color: black;
 }
 .footer-info{
     color: grey;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 10;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.privacy-settings{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: left; */
+    float: left;
+    height: 34px;
+    color: white;
+    background: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: normal
 }
