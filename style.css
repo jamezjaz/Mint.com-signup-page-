@@ -1,6 +1,9 @@
+/* styling the body*/
 body{
     background-color: #eceef1;
 }
+
+/* styling the sign-up-page*/
 .sign-up-page{
     margin:auto;
     height: 80%;
@@ -10,6 +13,8 @@ body{
     padding:0;
 
 }
+
+/* styling the nav bar*/
 .navigation{
     height: 60px;
     display: flex;
@@ -21,16 +26,15 @@ body{
     margin: 0;
     padding: 0;
 }
-.Have-account{
+
+.have-account{
     font-family: Arial,sans-serif;
     line-height: 1.2em;
     padding-left: 20px;
     text-align: center;
 }
 
-.nav-link{
-    color: blue;
-}
+/* styling password recovery link*/
 .recovery-link{
     color:#0077c5;
     padding: 0 10px;
@@ -39,6 +43,8 @@ body{
 .recovery-link:hover{
     cursor: pointer;
 }
+
+/* styling the Sign In button*/
 .sign-in-button{
     background-color: cornflowerblue;
     height: 34px;
@@ -51,21 +57,36 @@ body{
     font-size: 0.9em;
     font-weight: normal;
 }
-.inuit-logo{
+
+/* styling the logo*/
+.intuit-logo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 50px;
 }
+
+.intuit-logo:hover{
+    cursor: pointer;
+}
+
+/* styling the icons*/
 .logos{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-i{
-    padding: 0 10px;
+
+.logos:hover{
+    cursor: pointer;
 }
+
+i{
+    padding-left: 30px;
+}
+
+/* styling the form heading*/
 .heading{
     color: black;
     font-size: 25px;
@@ -77,6 +98,8 @@ i{
     padding-top: 0;
     margin-bottom: 0;
 }
+
+/* styling the form sub-heading*/
 .paragraph{
     color: grey;
     font-size: 15px;
@@ -87,33 +110,45 @@ i{
     justify-content: center;
     align-items: center;
 }
+
+/* styling learn more*/
 #learn-more{
     color: rgb(9, 85, 226);
     font-size: 10px;
 }
+
 #learn-more:hover{
     cursor: pointer;
 }
+
+/* styling the form*/
 form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 30px;
 }
+
+/* styling the text input*/
 .text-input{
     width: 100%;
     height: 30px;
     border-radius: 3px;
     border: 1px solid grey;  
 }
+
+/* styling the labels*/
 .labels{
     padding-bottom:10px;
 }
+
+/* styling the texts below the phone input box*/
 #phone-text{
     font-size: 10px;
     margin: 2px;
 }
 
+/* styling the Create Account button*/
 .account-button{
     background-color: rgb(25, 97, 231);
     border-radius: 5px;
@@ -123,15 +158,20 @@ form{
     font-size: 15px;
     border-width: 0.03rem;
 }
+
 .account-button:hover{
     cursor: pointer;
 }
+
+/* styling the password lock icon*/
 #lock{
     background-image: url(./images/pass-unlock.png);
     background-position: right;
     background-size: 25px;
     background-repeat: no-repeat;
 }
+
+/* styling Terms and Privacy Statement*/
 .terms{
     display: flex;
     flex-direction: row;
@@ -141,9 +181,12 @@ form{
     height: 140px;
     align-items: center;
 }
+
 .agreement:hover{
     cursor: pointer;
 }
+
+/* styling the Privacy Policy and Terms of Use*/
 .policy{
     display: flex;
     flex-direction: row;
@@ -153,12 +196,16 @@ form{
     background-color:rgb(218, 221, 226);
     align-items: center;
 }
+
 .privacy:hover{
     cursor: pointer;
 }
+
+/* styling the footer*/
 footer{
     height:90px;
 }
+
 .footer-buttons{
     display: flex;
     flex-direction: row;
@@ -166,10 +213,12 @@ footer{
     font-size: 10px;
     padding-top: 20px;
 }
+
 .footer-buttons:hover{
     cursor: pointer;
     color: black;
 }
+
 .footer-info{
     color: grey;
     font-size: 12px;
@@ -181,8 +230,10 @@ footer{
     align-items: center;
     text-align: center;
 }
+
+/* styling the Privacy Settings button*/
 .privacy-settings{
-    /* float: left;
+    float: right;
     height: 50px;
     color: white;
     background: #676969;
@@ -192,7 +243,4 @@ footer{
     cursor: pointer;
     font-size: 0.9em;
     font-weight: normal;
-    position: absolute; */
-    vertical-align: middle;
-    float: left;
 }
