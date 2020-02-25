@@ -7,16 +7,18 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    /* justify-content: space-between; */
     padding: 10px 30px;
     margin: 0;
 }
 .Have-account{
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    /* font-weight: 20; */
     line-height: 1.2em;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
+}
+
+.nav-link{
+    color: blue;
 }
 .sign-in{
     background-color: cornflowerblue;
@@ -28,11 +30,9 @@ body{
     border-width: 0.03rem;
 }
 .inuit-logo{
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */ 
     height: 50px;
 }
 .logos{
@@ -67,7 +67,6 @@ i{
 form{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
 }
 .Account-button{
@@ -88,14 +87,12 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
     font-size: 10px;
 }
 .footer-links{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
     font-size: 10px;
     padding-left: 10px;
     padding-right: 10px;
