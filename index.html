@@ -27,12 +27,12 @@
     </div> 
     <main>
         <div class="inuit-logo">
-            <img src="./images/intuit-logo.jpg" alt="logo" size = 50>
+            <img src="/images/inuiti.png" alt="logo" width = 120>
         </div>
         <div class="logos">
-            <i class="fa fa-envelope-open-o" aria-hidden="true">mint</i>
-            <i class="fa fa-star-o" aria-hidden="true">quickbooks</i>
-            <i class="fa fa-check" aria-hidden="true">turbotax</i>
+            <img src="/images/mint-logo.png" alt="logo" width = 60>
+            <img src="/images/quickbook.jpg" alt="logo" width = 90>
+            <img src="/images/turbo.jpg" alt="logo" width = 90>
         </div>
         <div class="sign-up-page">
             <div class="heading">
@@ -40,16 +40,19 @@
             </div>
             <div class="paragraph">
                 <p>One account for everything Intuit, including Mint.</p>
-                    <a href="#">Learn more</a>
+                <p id ="learn-more">Learn more</p>
             </div>
             <form action="post">
-                <label for="email">Email Address</label>
-                <input type="text" id="email" name="email"><br><br>
-                <label for="phone">Phone (recommended)</label>
-                <input type="text" id="phone" name="phone"><br><br>
+                <label for="email" class="labels">Email address</label>
+                <input type="text" class="text-input" name="email"><br><br>
+                <label for="phone" class="labels">Phone (recommended)</label>
+                <input type="text" class="text-input" name="phone">
+                <p id="phone-text">Standard call, messaging or data rates may apply.</p>
+                <br><br>
                 <label for="pword">Password</label>
-                <input type="text" id="pword" name="pword"><br><br>
-                <button class="Account-button">
+                <input type="text" class="text-input" name="pword"> 
+                <br><br>
+                <button class="account-button">
                     <i class="fa fa-lock" aria-hidden="true">Create Account</i>
                 </button>
                 <div class="terms">
