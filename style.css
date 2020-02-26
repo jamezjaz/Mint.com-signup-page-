@@ -3,14 +3,11 @@ body{
     background-color: #eceef1;
 }
 
-* {
-    box-sizing: border-box;
-  }
-
 /* styling the sign-up-page*/
 .sign-up-page{
     background-color: #fff;
     border: 1px solid #c7c7c7;
+    box-sizing: border-box;
     height: 80%;
     margin:auto;
     padding: 0;
@@ -20,6 +17,7 @@ body{
 /* styling the nav bar*/
 .navigation{
     align-items: center;
+    box-sizing: border-box;
     display: flex;
     height: 60px;
     justify-content: flex-end;
@@ -53,6 +51,7 @@ body{
     background: #0077C5;
     border: 1px solid #4C4C4C;
     border-radius: 4px;
+    box-sizing: border-box;
     color: white;
     height: 34px;
     margin-right: 25px;
@@ -151,6 +150,7 @@ form{
 .text-input{
     border: 1px solid grey;
     border-radius: 3px;
+    box-sizing: border-box;
     height: 30px;
     width: 100%;  
 }
@@ -257,6 +257,7 @@ footer{
     background: #676969;
     border: 1px solid #676969;
     border-radius: 3px;
+    box-sizing: border-box;
     color: white;
     cursor: pointer;
     float: right;
