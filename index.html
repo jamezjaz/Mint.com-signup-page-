@@ -9,22 +9,20 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <div>
         <nav class="navigation">
             <div class="have-account">
-                <h6>
-                    Already have an Intuit account?
-                    <br>
-                    <p class="recovery-link">I forgot my User ID or Password</p>
-                </h6>
+                    <div>
+                        Already have an Intuit account?
+                        <br>
+                        <p class="recovery-link">I forgot my User ID or Password</p>
+                    </div>
             </div>
             <div>
                 <button class="sign-in-button">
                     <i class="fa fa-lock" aria-hidden="true">Sign In</i>
                 </button>
             </div>
-        </nav>
-    </div> 
+        </nav> 
     <main>
         <div class="intuit-logo">
             <img src="./images/intuit.png" alt="logo" width = 120>
@@ -44,13 +42,13 @@
             </div>
             <form method="POST">
                 <label for="email" class="labels">Email address</label>
-                <input type="text" class="text-input" name="email"><br><br>
+                <input type="text" class="text-input" name="email" id="email"><br><br>
                 <label for="phone" class="labels">Phone (recommended)</label>
-                <input type="text" class="text-input" name="phone">
+                <input type="number" class="text-input" name="phone" id="phone">
                 <p id="phone-text">Standard call, messaging or data rates may apply.</p>
                 <br><br>
                 <label for="pword">Password</label>
-                <input type="text" class="text-input" name="pword" id="lock">
+                <input type="password" class="text-input" name="pword" id="pword">
                 <br><br>
                 <button class="account-button">
                     <i class="fa fa-lock" aria-hidden="true">Create Account</i>
@@ -85,9 +83,9 @@
             and service options subject to change without notice.
         </div>
         <div>
-            <button class="privacy-settings">
+            <div class="privacy-settings">
                 <p>Privacy Settings</p>
-            </button>
+            </div>
         </div>
     </footer>
 </body>
