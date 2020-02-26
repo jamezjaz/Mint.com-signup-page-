@@ -1,30 +1,30 @@
 
-/* styling the body*/
+/*styling the body*/
 body {
     background-color: #eceef1;
 }
 
-/* styling the sign-up-page*/
+/*styling the sign-up-page*/
 .sign-up-page {
     background-color: #fff; *behavior: url(/stylelint.config.js);
     border: 1px solid #c7c7c7;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     height: 80%;
     margin:auto;
     padding: 0;
     width: 30%;
 }
 
-/* styling the nav bar*/
+/*styling the nav bar*/
 .navigation {
-    align-items: center;
-    box-sizing: border-box; *behavior: url(/stylelint.config.js);
+    align-items: center; *behavior: url(/stylelint.config.js);
+    box-sizing: border-box;
     display: flex;
     height: 60px;
     justify-content: flex-end;
     margin: 0;
     padding: 10px 30px;
-    text-align: left;   
+    text-align: left;
 }
 
 .have-account {
@@ -34,10 +34,10 @@ body {
     line-height: 0.5em;
     padding-left: 20px;
     padding-top: 10px;
-    text-align: center;  
+    text-align: center;
 }
 
-/* styling password recovery link*/
+/*styling password recovery link*/
 .recovery-link {
     color:#0077c5;
     padding: 0 10px;
@@ -47,12 +47,12 @@ body {
     cursor: pointer;
 }
 
-/* styling the Sign In button*/
+/*styling the Sign In button*/
 .sign-in-button {
-    background: #0077C5;
-    border: 1px solid #4C4C4C;
+    background: #0077c5; *behavior: url(/stylelint.config.js);
+    border: 1px solid #4c4c4c;
     border-radius: 4px;
-    box-sizing: border-box; *behavior: url(/stylelint.config.js);
+    box-sizing: border-box;
     color: white;
     height: 34px;
     margin-right: 25px;
@@ -63,24 +63,24 @@ body {
     cursor: pointer;
 }
 
-.sign-in{
+.sign-in {
     float: left;
     margin-left: 10px;
     text-align: right;
 }
 
-/* styling the logo*/
+/*styling the logo*/
 .intuit-logo {
     display: flex;
     height: 50px;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .intuit-logo:hover {
     cursor: pointer;
 }
 
-/* styling the icons*/
+/*styling the icons */
 .logos {
     align-items: center;
     display: flex;
@@ -107,7 +107,7 @@ i {
     padding-left: 30px;
 }
 
-/* styling the form heading*/
+/*styling the form heading*/
 .heading {
     color: black;
     display: flex;
@@ -118,7 +118,7 @@ i {
     padding-top: 0;
 }
 
-/* styling the form sub-heading*/
+/*styling the form sub-heading*/
 .paragraph {
     align-items: center;
     color: grey;
@@ -129,7 +129,7 @@ i {
     justify-content: center;
 }
 
-/* styling learn more*/
+/*styling learn more*/
 .learn-more {
     color: rgb(9, 85, 226);
     font-size: 10px;
@@ -139,7 +139,7 @@ i {
     cursor: pointer;
 }
 
-/* styling the form*/
+/*styling the form*/
 form {
     align-items: flex-start;
     display: flex;
@@ -147,27 +147,28 @@ form {
     margin: 0 30px;
 }
 
-/* styling the text input*/
+/*styling the text input*/
 .text-input {
+    *behavior: url(/stylelint.config.js);
     border: 1px solid grey;
     border-radius: 3px;
-    box-sizing: border-box; *behavior: url(/stylelint.config.js);
+    box-sizing: border-box;
     height: 30px;
-    width: 100%;  
+    width: 100%;
 }
 
-/* styling the labels*/
+/*styling the labels*/
 .labels {
     padding-bottom:10px;
 }
 
-/* styling the texts below the phone input box*/
+/*styling the texts below the phone input box*/
 .phone-text {
     font-size: 10px;
     margin: 2px;
 }
 
-/* styling the Create Account button*/
+/*styling the Create Account button*/
 .account-button {
     background-color: rgb(25, 97, 231);
     border-radius: 5px;
@@ -182,7 +183,7 @@ form {
     cursor: pointer;
 }
 
-/* styling the password lock icon*/
+/*styling the password lock icon*/
 .pword {
     background-image: url(./images/pass-unlock.png);
     background-position: right;
@@ -190,7 +191,7 @@ form {
     background-size: 25px;
 }
 
-/* styling Terms and Privacy Statement*/
+/*styling Terms and Privacy Statement*/
 .terms {
     align-items: center;
     display: flex;
@@ -208,7 +209,7 @@ form {
     cursor: pointer;
 }
 
-/* styling the Privacy Policy and Terms of Use*/
+/*styling the Privacy Policy and Terms of Use*/
 .policy {
     align-items: center;
     background-color:rgb(218, 221, 226);
@@ -226,7 +227,7 @@ form {
     cursor: pointer;
 }
 
-/* styling the footer*/
+/*styling the footer*/
 footer {
     height:90px;
 }
@@ -240,7 +241,7 @@ footer {
 
 .footer-buttons:hover {
     color: black;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .footer-info {
@@ -253,12 +254,12 @@ footer {
     text-align: center;
 }
 
-/* styling the Privacy Settings button*/
+/*styling the Privacy Settings button*/
 .privacy-settings {
-    background: #676969;
+    background: #676969; *behavior: url(/stylelint.config.js);
     border: 1px solid #676969;
     border-radius: 3px;
-    box-sizing: border-box; *behavior: url(/stylelint.config.js);
+    box-sizing: border-box;
     color: white;
     cursor: pointer;
     float: right;
