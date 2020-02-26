@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-=======
----
->>>>>>> a524bd7f606dc8a18fc23ee41e0b5e4a0dfd1c1e
 linters:
     flake8:
     eslint:
         config: './eslint.config'
     csslint:
-<<<<<<< HEAD
-
-=======
->>>>>>> a524bd7f606dc8a18fc23ee41e0b5e4a0dfd1c1e
 files:
     ignore:
         - 'src/generated/*'
