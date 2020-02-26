@@ -1,9 +1,7 @@
 linters:
-    flake8:
-    eslint:
-        config: './eslint.config'
-    csslint:
-files:
-    ignore:
-        - 'src/generated/*'
-        - 'webroot/bower_components/*'
+  rubocop:
+    display_cop_names: true
+  csslint:
+  stylelint:
+  eslint:
+    config: './eslint.config' 

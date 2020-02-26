@@ -3,38 +3,39 @@ body{
     background-color: #eceef1;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
 /* styling the sign-up-page*/
 .sign-up-page{
-    margin:auto;
-    height: 80%;
-    width: 30%;
     background-color: #fff;
     border: 1px solid #c7c7c7;
-    padding:0;
-
+    height: 80%;
+    margin:auto;
+    padding: 0;
+    width: 30%;
 }
 
 /* styling the nav bar*/
 .navigation{
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
-    text-align: left;
-    padding: 10px 30px;
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
     margin: 0;
-    padding: 0;
+    padding: 10px 30px;
+    text-align: left;   
 }
 
 .have-account{
+    color: rgb(61, 60, 60); 
     font-family: Arial,sans-serif;
+    font-size: 12px;
     line-height: 0.5em;
     padding-left: 20px;
     padding-top: 10px;
-    text-align: center;
-    font-size: 12px;
-    color: rgb(61, 60, 60);   
+    text-align: center;  
 }
 
 /* styling password recovery link*/
@@ -50,12 +51,12 @@ body{
 /* styling the Sign In button*/
 .sign-in-button{
     background: #0077C5;
-    border-radius: 4px;
     border: 1px solid #4C4C4C;
-    width: 100px;
-    height: 34px;
+    border-radius: 4px;
     color: white;
+    height: 34px;
     margin-right: 25px;
+    width: 100px;
 }
 
 .sign-in-button:hover{
@@ -71,8 +72,8 @@ body{
 /* styling the logo*/
 .intuit-logo{
     display: flex;
-    justify-content: center;
     height: 50px;
+    justify-content: center;  
 }
 
 .intuit-logo:hover{
@@ -81,24 +82,24 @@ body{
 
 /* styling the icons*/
 .logos{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .logos:hover{
     cursor: pointer;
 }
 
-#mint{
+.mint{
     width: 60px;
 }
 
-#quickbook{
+.quickbook{
     width: 90px;
 }
 
-#turbo{
+.turbo{
     width: 90px;
 }
 
@@ -109,51 +110,49 @@ i{
 /* styling the form heading*/
 .heading{
     color: black;
-    font-size: 25px;
-    font-weight: 80;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 25px;
     justify-content: center;
-    padding-top: 0;
     margin-bottom: 0;
+    padding-top: 0;
 }
 
 /* styling the form sub-heading*/
 .paragraph{
+    align-items: center;
     color: grey;
-    font-size: 15px;
-    font-weight: 20;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 15px;
     justify-content: center;
-    align-items: center;
 }
 
 /* styling learn more*/
-#learn-more{
+.learn-more{
     color: rgb(9, 85, 226);
     font-size: 10px;
 }
 
-#learn-more:hover{
+.learn-more:hover{
     cursor: pointer;
 }
 
 /* styling the form*/
 form{
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin: 0 30px;
 }
 
 /* styling the text input*/
 .text-input{
-    width: 100%;
-    height: 30px;
+    border: 1px solid grey;
     border-radius: 3px;
-    border: 1px solid grey;  
+    height: 30px;
+    width: 100%;  
 }
 
 /* styling the labels*/
@@ -162,7 +161,7 @@ form{
 }
 
 /* styling the texts below the phone input box*/
-#phone-text{
+.phone-text{
     font-size: 10px;
     margin: 2px;
 }
@@ -171,11 +170,11 @@ form{
 .account-button{
     background-color: rgb(25, 97, 231);
     border-radius: 5px;
-    height: 45px;
-    width: 100%;
+    border-width: 0.03rem;
     color: white;
     font-size: 15px;
-    border-width: 0.03rem;
+    height: 45px;
+    width: 100%;
 }
 
 .account-button:hover{
@@ -183,21 +182,21 @@ form{
 }
 
 /* styling the password lock icon*/
-#pword{
+.pword{
     background-image: url(./images/pass-unlock.png);
     background-position: right;
-    background-size: 25px;
     background-repeat: no-repeat;
+    background-size: 25px;
 }
 
 /* styling Terms and Privacy Statement*/
 .terms{
+    align-items: center;
     display: flex;
-    justify-content: center;
-    text-align: center;
     font-size: 13px;
     height: 140px;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .agreement{
@@ -210,12 +209,12 @@ form{
 
 /* styling the Privacy Policy and Terms of Use*/
 .policy{
+    align-items: center;
+    background-color:rgb(218, 221, 226);
     display: flex;
-    justify-content: center;
     font-size: 10px;
     height: 50px;
-    background-color:rgb(218, 221, 226);
-    align-items: center;
+    justify-content: center;
 }
 
 .privacy{
@@ -233,8 +232,8 @@ footer{
 
 .footer-buttons{
     display: flex;
-    justify-content: center;
     font-size: 10px;
+    justify-content: center;
     padding-top: 20px;
 }
 
@@ -244,27 +243,26 @@ footer{
 }
 
 .footer-info{
-    color: grey;
-    font-size: 12px;
-    font-weight: 10;
-    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    color: grey;
+    display: flex;
+    font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    justify-content: center;
     text-align: center;
 }
 
 /* styling the Privacy Settings button*/
 .privacy-settings{
-    float: right;
-    height: 50px;
-    width: 100px;
-    color: white;
     background: #676969;
-    border-radius: 3px;
     border: 1px solid #676969;
-    margin-right: 80px;
+    border-radius: 3px;
+    color: white;
     cursor: pointer;
+    float: right;
     font-size: 0.9em;
     font-weight: normal;
+    height: 50px;
+    margin-right: 80px;
+    width: 100px;
 }
