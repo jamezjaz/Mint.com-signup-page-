@@ -1,6 +1,9 @@
+/* styling the body*/
 body{
     background-color: #eceef1;
 }
+
+/* styling the sign-up-page*/
 .sign-up-page{
     margin:auto;
     height: 80%;
@@ -10,6 +13,8 @@ body{
     padding:0;
 
 }
+
+/* styling the nav bar*/
 .navigation{
     height: 60px;
     display: flex;
@@ -21,58 +26,99 @@ body{
     margin: 0;
     padding: 0;
 }
-.Have-account{
+
+.have-account{
     font-family: Arial,sans-serif;
-    line-height: 1.2em;
+    line-height: 0.5em;
     padding-left: 20px;
+    padding-top: 10px;
     text-align: center;
+    font-size: 12px;
+    color: rgb(61, 60, 60);   
 }
 
-.nav-link{
-    color: blue;
-}
+/* styling password recovery link*/
 .recovery-link{
     color:#0077c5;
     padding: 0 10px;
 }
+
+.recovery-link:hover{
+    cursor: pointer;
+}
+
+/* styling the Sign In button*/
 .sign-in-button{
-    background-color: cornflowerblue;
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4C4C4C;
+    width: 100px;
     height: 34px;
     color: white;
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    padding: 0 20px;
-    cursor: pointer;
-    font-size: 0.9em;
-    font-weight: normal;
+    margin-right: 25px;
 }
-.inuit-logo{
+
+.sign-in-button:hover{
+    cursor: pointer;
+}
+
+.sign-in{
+    float: left;
+    margin-left: 10px;
+    text-align: right;
+}
+
+/* styling the logo*/
+.intuit-logo{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     height: 50px;
 }
+
+.intuit-logo:hover{
+    cursor: pointer;
+}
+
+/* styling the icons*/
 .logos{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-i{
-    padding: 0 10px;
+
+.logos:hover{
+    cursor: pointer;
 }
+
+#mint{
+    width: 60px;
+}
+
+#quickbook{
+    width: 90px;
+}
+
+#turbo{
+    width: 90px;
+}
+
+i{
+    padding-left: 30px;
+}
+
+/* styling the form heading*/
 .heading{
     color: black;
     font-size: 25px;
     font-weight: 80;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-top: 0;
     margin-bottom: 0;
 }
+
+/* styling the form sub-heading*/
 .paragraph{
     color: grey;
     font-size: 15px;
@@ -83,33 +129,45 @@ i{
     justify-content: center;
     align-items: center;
 }
+
+/* styling learn more*/
 #learn-more{
     color: rgb(9, 85, 226);
     font-size: 10px;
 }
+
 #learn-more:hover{
     cursor: pointer;
 }
+
+/* styling the form*/
 form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 30px;
 }
+
+/* styling the text input*/
 .text-input{
     width: 100%;
     height: 30px;
     border-radius: 3px;
     border: 1px solid grey;  
 }
+
+/* styling the labels*/
 .labels{
     padding-bottom:10px;
 }
+
+/* styling the texts below the phone input box*/
 #phone-text{
     font-size: 10px;
     margin: 2px;
 }
 
+/* styling the Create Account button*/
 .account-button{
     background-color: rgb(25, 97, 231);
     border-radius: 5px;
@@ -119,66 +177,94 @@ form{
     font-size: 15px;
     border-width: 0.03rem;
 }
+
 .account-button:hover{
     cursor: pointer;
 }
+
+/* styling the password lock icon*/
+#pword{
+    background-image: url(./images/pass-unlock.png);
+    background-position: right;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+/* styling Terms and Privacy Statement*/
 .terms{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     text-align: center;
     font-size: 13px;
     height: 140px;
     align-items: center;
 }
+
+.agreement{
+    color: blue;
+}
+
+.agreement:hover{
+    cursor: pointer;
+}
+
+/* styling the Privacy Policy and Terms of Use*/
 .policy{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-size: 10px;
     height: 50px;
     background-color:rgb(218, 221, 226);
     align-items: center;
 }
+
+.privacy{
+    color: blue;
+}
+
+.privacy:hover{
+    cursor: pointer;
+}
+
+/* styling the footer*/
 footer{
     height:90px;
 }
+
 .footer-buttons{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-size: 10px;
     padding-top: 20px;
 }
+
 .footer-buttons:hover{
     cursor: pointer;
     color: black;
 }
+
 .footer-info{
     color: grey;
     font-size: 12px;
     font-weight: 10;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
+/* styling the Privacy Settings button*/
 .privacy-settings{
-    /* display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: left; */
-    float: left;
-    height: 34px;
+    float: right;
+    height: 50px;
+    width: 100px;
     color: white;
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    padding: 0 20px;
+    background: #676969;
+    border-radius: 3px;
+    border: 1px solid #676969;
+    margin-right: 80px;
     cursor: pointer;
     font-size: 0.9em;
-    font-weight: normal
+    font-weight: normal;
 }
