@@ -1,10 +1,11 @@
+
 /* styling the body*/
-body{
+body {
     background-color: #eceef1;
 }
 
 /* styling the sign-up-page*/
-.sign-up-page{
+.sign-up-page {
     background-color: #fff;
     border: 1px solid #c7c7c7;
     box-sizing: border-box;
@@ -15,7 +16,7 @@ body{
 }
 
 /* styling the nav bar*/
-.navigation{
+.navigation {
     align-items: center;
     box-sizing: border-box;
     display: flex;
@@ -26,7 +27,7 @@ body{
     text-align: left;   
 }
 
-.have-account{
+.have-account {
     color: rgb(61, 60, 60); 
     font-family: Arial,sans-serif;
     font-size: 12px;
@@ -37,17 +38,17 @@ body{
 }
 
 /* styling password recovery link*/
-.recovery-link{
+.recovery-link {
     color:#0077c5;
     padding: 0 10px;
 }
 
-.recovery-link:hover{
+.recovery-link:hover {
     cursor: pointer;
 }
 
 /* styling the Sign In button*/
-.sign-in-button{
+.sign-in-button {
     background: #0077C5;
     border: 1px solid #4C4C4C;
     border-radius: 4px;
@@ -58,7 +59,7 @@ body{
     width: 100px;
 }
 
-.sign-in-button:hover{
+.sign-in-button:hover {
     cursor: pointer;
 }
 
@@ -69,45 +70,45 @@ body{
 }
 
 /* styling the logo*/
-.intuit-logo{
+.intuit-logo {
     display: flex;
     height: 50px;
     justify-content: center;  
 }
 
-.intuit-logo:hover{
+.intuit-logo:hover {
     cursor: pointer;
 }
 
 /* styling the icons*/
-.logos{
+.logos {
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
-.logos:hover{
+.logos:hover {
     cursor: pointer;
 }
 
-.mint{
+.mint {
     width: 60px;
 }
 
-.quickbook{
+.quickbook {
     width: 90px;
 }
 
-.turbo{
+.turbo {
     width: 90px;
 }
 
-i{
+i {
     padding-left: 30px;
 }
 
 /* styling the form heading*/
-.heading{
+.heading {
     color: black;
     display: flex;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -118,7 +119,7 @@ i{
 }
 
 /* styling the form sub-heading*/
-.paragraph{
+.paragraph {
     align-items: center;
     color: grey;
     display: flex;
@@ -129,17 +130,17 @@ i{
 }
 
 /* styling learn more*/
-.learn-more{
+.learn-more {
     color: rgb(9, 85, 226);
     font-size: 10px;
 }
 
-.learn-more:hover{
+.learn-more:hover {
     cursor: pointer;
 }
 
 /* styling the form*/
-form{
+form {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
@@ -147,7 +148,7 @@ form{
 }
 
 /* styling the text input*/
-.text-input{
+.text-input {
     border: 1px solid grey;
     border-radius: 3px;
     box-sizing: border-box;
@@ -156,18 +157,18 @@ form{
 }
 
 /* styling the labels*/
-.labels{
+.labels {
     padding-bottom:10px;
 }
 
 /* styling the texts below the phone input box*/
-.phone-text{
+.phone-text {
     font-size: 10px;
     margin: 2px;
 }
 
 /* styling the Create Account button*/
-.account-button{
+.account-button {
     background-color: rgb(25, 97, 231);
     border-radius: 5px;
     border-width: 0.03rem;
@@ -177,12 +178,12 @@ form{
     width: 100%;
 }
 
-.account-button:hover{
+.account-button:hover {
     cursor: pointer;
 }
 
 /* styling the password lock icon*/
-.pword{
+.pword {
     background-image: url(./images/pass-unlock.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -190,7 +191,7 @@ form{
 }
 
 /* styling Terms and Privacy Statement*/
-.terms{
+.terms {
     align-items: center;
     display: flex;
     font-size: 13px;
@@ -199,16 +200,16 @@ form{
     text-align: center;
 }
 
-.agreement{
+.agreement {
     color: blue;
 }
 
-.agreement:hover{
+.agreement:hover {
     cursor: pointer;
 }
 
 /* styling the Privacy Policy and Terms of Use*/
-.policy{
+.policy {
     align-items: center;
     background-color:rgb(218, 221, 226);
     display: flex;
@@ -217,32 +218,32 @@ form{
     justify-content: center;
 }
 
-.privacy{
+.privacy {
     color: blue;
 }
 
-.privacy:hover{
+.privacy:hover {
     cursor: pointer;
 }
 
 /* styling the footer*/
-footer{
+footer {
     height:90px;
 }
 
-.footer-buttons{
+.footer-buttons {
     display: flex;
     font-size: 10px;
     justify-content: center;
     padding-top: 20px;
 }
 
-.footer-buttons:hover{
-    cursor: pointer;
+.footer-buttons:hover {
     color: black;
+    cursor: pointer; 
 }
 
-.footer-info{
+.footer-info {
     align-items: center;
     color: grey;
     display: flex;
@@ -253,7 +254,7 @@ footer{
 }
 
 /* styling the Privacy Settings button*/
-.privacy-settings{
+.privacy-settings {
     background: #676969;
     border: 1px solid #676969;
     border-radius: 3px;
