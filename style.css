@@ -34,8 +34,7 @@ body{
     padding-top: 10px;
     text-align: center;
     font-size: 12px;
-    color: rgb(61, 60, 60);
-    
+    color: rgb(61, 60, 60);   
 }
 
 /* styling password recovery link*/
@@ -50,22 +49,28 @@ body{
 
 /* styling the Sign In button*/
 .sign-in-button{
-    background-color: cornflowerblue;
+    background: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4C4C4C;
+    width: 100px;
     height: 34px;
     color: white;
-    background: #0077c5;
-    border-radius: 4px;
-    border: 1px solid #4c4c4c;
-    padding: 0 20px;
+    margin-right: 25px;
+}
+
+.sign-in-button:hover{
     cursor: pointer;
-    font-size: 0.9em;
-    font-weight: normal;
+}
+
+.sign-in{
+    float: left;
+    margin-left: 10px;
+    text-align: right;
 }
 
 /* styling the logo*/
 .intuit-logo{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     height: 50px;
 }
@@ -77,13 +82,24 @@ body{
 /* styling the icons*/
 .logos{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .logos:hover{
     cursor: pointer;
+}
+
+#mint{
+    width: 60px;
+}
+
+#quickbook{
+    width: 90px;
+}
+
+#turbo{
+    width: 90px;
 }
 
 i{
@@ -97,7 +113,6 @@ i{
     font-weight: 80;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-top: 0;
     margin-bottom: 0;
@@ -178,12 +193,15 @@ form{
 /* styling Terms and Privacy Statement*/
 .terms{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     text-align: center;
     font-size: 13px;
     height: 140px;
     align-items: center;
+}
+
+.agreement{
+    color: blue;
 }
 
 .agreement:hover{
@@ -193,12 +211,15 @@ form{
 /* styling the Privacy Policy and Terms of Use*/
 .policy{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-size: 10px;
     height: 50px;
     background-color:rgb(218, 221, 226);
     align-items: center;
+}
+
+.privacy{
+    color: blue;
 }
 
 .privacy:hover{
@@ -212,7 +233,6 @@ footer{
 
 .footer-buttons{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     font-size: 10px;
     padding-top: 20px;
@@ -229,7 +249,6 @@ footer{
     font-weight: 10;
     font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
