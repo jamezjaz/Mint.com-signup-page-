@@ -5,4 +5,4 @@ linters:
     ignore: 'box-sizing'
   stylelint:
   eslint:
-    config: './eslint.config' 
+    config: './eslint.config.js' 
