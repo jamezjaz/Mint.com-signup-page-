@@ -128,7 +128,6 @@ i {
   padding-top: 0;
 }
 
-
 /* styling the form sub-heading */
 
 .paragraph {
@@ -141,7 +140,6 @@ i {
   justify-content: center;
 }
 
-
 /* styling learn more */
 
 .learn-more {
@@ -153,7 +151,6 @@ i {
   cursor: pointer;
 }
 
-
 /* styling the form */
 
 form {
@@ -162,7 +159,6 @@ form {
   flex-direction: column;
   margin: 0 30px;
 }
-
 
 /* styling the text input */
 
@@ -175,13 +171,11 @@ form {
   width: 100%;
 }
 
-
 /* styling the labels */
 
 .labels {
   padding-bottom: 10px;
 }
-
 
 /* styling the texts below the phone input box */
 
@@ -189,7 +183,6 @@ form {
   font-size: 10px;
   margin: 2px;
 }
-
 
 /* styling the Create Account button */
 
@@ -209,7 +202,6 @@ form {
   cursor: pointer;
 }
 
-
 /* styling the password lock icon */
 
 .custom-user {
@@ -218,7 +210,6 @@ form {
   background-repeat: no-repeat;
   background-size: 25px;
 }
-
 
 /* styling Terms and Privacy Statement */
 
@@ -241,7 +232,6 @@ form {
   cursor: pointer;
 }
 
-
 /* styling the Privacy Policy and Terms of Use */
 
 .policy {
@@ -260,7 +250,6 @@ form {
 .privacy:hover {
   cursor: pointer;
 }
-
 
 /* styling the footer */
 
@@ -289,7 +278,6 @@ footer {
   justify-content: center;
   text-align: center;
 }
-
 
 /* styling the Privacy Settings button */
 
