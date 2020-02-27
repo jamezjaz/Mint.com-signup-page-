@@ -217,7 +217,7 @@ form {
 
 /* styling the password lock icon */
 
-.pword {
+.custom-user {
     background-image: url(./images/pass-unlock.png);
     background-position: right;
     background-repeat: no-repeat;

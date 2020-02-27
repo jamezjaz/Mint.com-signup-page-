@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 <body>
-        <nav class="navigation">
-            <div class="have-account">
-                    <div>
-                        Already have an Intuit account?
-                        <br>
-                        <p class="recovery-link">I forgot my User ID or Password</p>
-                    </div>
+    <nav class="navigation">
+        <div class="have-account">
+            <div>
+                Already have an Intuit account?
+                <br>
+                <p class="recovery-link">I forgot my User ID or Password</p>
             </div>
-                <div class="sign-in">
-                    <button class="sign-in-button">
+        </div>
+        <div class="sign-in">
+            <button class="sign-in-button">
                         <span class="fa fa-lock" aria-hidden="true"></span>
                         Sign In
                     </button>
-                </div>
-        </nav> 
+        </div>
+    </nav>
     <main>
         <div class="intuit-logo">
             <img src="./images/intuit.png" alt="logo">
@@ -39,17 +41,17 @@
             </div>
             <div class="paragraph">
                 <p>One account for everything Intuit, including Mint.</p>
-                <p class ="learn-more">Learn more</p>
+                <p class="learn-more">Learn more</p>
             </div>
             <form method="POST">
                 <label for="email" class="labels">Email address</label>
-                <input type="text" class="text-input" name="email" id="email" required><br><br>
+                <input type="email" class="text-input" name="email" id="email" required><br><br>
                 <label for="phone" class="labels">Phone (recommended)</label>
-                <input type="number" class="text-input" name="phone" id="phone" required>
+                <input type="tel" class="text-input" name="phone" id="phone" required>
                 <p class="phone-text">Standard call, messaging or data rates may apply.</p>
                 <br><br>
                 <label for="password">Password</label>
-                <input type="password" class="text-input" name="pword" class="pword" id="password" required>
+                <input type="password" class="text-input custom-user" name="pword" id="password" required>
                 <br><br>
                 <button class="account-button">
                     <i class="fa fa-lock" aria-hidden="true">Create Account</i>
@@ -62,26 +64,23 @@
                         <span class="agreement">Privacy 
                         <br>
                         Statement</span> 
-                    </i> 
+                    </i>
                 </div>
             </form>
             <div class="policy">
-                Invisible reCAPTCHA by Google <span class="privacy">Privacy Policy</span> and  
+                Invisible reCAPTCHA by Google <span class="privacy">Privacy Policy</span> and
                 <span class="privacy">Terms of Use.</span>
             </div>
         </div>
-       
+
     </main>
     <footer>
         <div class="footer-buttons">
             <p>Legal Privacy Security</p>
         </div>
         <div class="footer-info">
-            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect 
-            and Mint are registered trademarks of Intuit Inc.
-            <br>
-            Terms and conditions, features, support, pricing,
-            and service options subject to change without notice.
+            © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            <br> Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </div>
         <div>
             <div class="privacy-settings">
@@ -90,4 +89,5 @@
         </div>
     </footer>
 </body>
+
 </html>
