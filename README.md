@@ -3,7 +3,7 @@
 > This project is to design the [mint.com](https://accounts.intuit.com/signup.html) signup page.
 
 ## Preview
-![image](https://user-images.githubusercontent.com/52098394/75374382-3ea15a80-58dd-11ea-99c0-64a9c1543c6d.png)
+![image](https://user-images.githubusercontent.com/52098394/75468141-cd75ac00-599d-11ea-98fd-7bec520e283a.png)
 
 ### Additional description about the project and its features
 - Sign In button
@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/Mint.com-signup-page-/509e4cb79795ba05989279d4f01ca0a250e0ed6d/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/Mint.com-signup-page-/b815e44070ad5ea9c48c9291a1bbb161f45bdfc5/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
