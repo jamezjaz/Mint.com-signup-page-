@@ -8,8 +8,8 @@ body {
 .sign-up-page {
   background-color: #fff; 
   behavior: url(/stylelint.config.js);
-    border: 1px solid #c7c7c7;
-    box-sizing: border-box;
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
     height: 80%;
     margin: auto;
     padding: 0;
