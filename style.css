@@ -4,7 +4,6 @@ body {
   background-color: #eceef1;
 }
 
-
 /* styling the sign-up-page */
 
 .sign-up-page {
@@ -17,7 +16,6 @@ body {
   padding: 0;
   width: 380px;
 }
-
 
 /* styling the nav bar */
 
@@ -43,7 +41,6 @@ body {
   text-align: center;
 }
 
-
 /* styling password recovery link */
 
 .recovery-link {
@@ -54,7 +51,6 @@ body {
 .recovery-link:hover {
   cursor: pointer;
 }
-
 
 /* styling the Sign In button */
 
@@ -80,7 +76,6 @@ body {
   text-align: right;
 }
 
-
 /* styling the logo */
 
 .intuit-logo {
@@ -92,7 +87,6 @@ body {
 .intuit-logo:hover {
   cursor: pointer;
 }
-
 
 /* styling the icons */
 
@@ -121,7 +115,6 @@ body {
 i {
   padding-left: 30px;
 }
-
 
 /* styling the form heading */
 
