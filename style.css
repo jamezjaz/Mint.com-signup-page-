@@ -170,7 +170,6 @@ form {
   height: 30px;
   margin-right: 10px;
   width: 100%;
-  
 }
 
 /* styling the labels */
@@ -210,6 +209,7 @@ form {
 .lock {
   width: 20px;
 }
+
 /* styling the password lock icon */
 
 .custom-user {
