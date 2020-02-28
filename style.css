@@ -291,21 +291,3 @@ footer {
   justify-content: center;
   text-align: center;
 }
-
-/* styling the Privacy Settings button */
-
-.privacy-settings {
-  background: #676969;
-  behavior: url(/stylelint.config.js);
-  border: 1px solid #676969;
-  border-radius: 3px;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  float: right;
-  font-size: 0.9em;
-  font-weight: normal;
-  height: 50px;
-  margin-right: 80px;
-  width: 100px;
-}
