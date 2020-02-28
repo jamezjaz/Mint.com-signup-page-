@@ -257,6 +257,7 @@ form {
 
 .privacy {
   color: rgb(8, 64, 168);
+  padding: 0 2px;
 }
 
 .privacy:hover {
