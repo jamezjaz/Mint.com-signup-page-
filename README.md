@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jamezjaz/Mint.com-signup-page-/664fd5b7c23637b68be8857f79593a0846c5a7b3/index.html) hosted on [githack](https://raw.githack.com)
+[Live Demo Link](https://rawcdn.githack.com/jamezjaz/Mint.com-signup-page-/1d4cb16aa532cdf5136a07569e44a9f4bdaf8e6b/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## CDNs
