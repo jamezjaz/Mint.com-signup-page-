@@ -1,329 +1,310 @@
 /* styling the body */
 
 body {
-    background-color: #eceef1;
+  background-color: #eceef1;
 }
-
 
 /* styling the sign-up-page */
 
 .sign-up-page {
-    background-color: #fff;
-    behavior: url(/stylelint.config.js);
-    border: 1px solid #c7c7c7;
-    box-sizing: border-box;
-    height: 80%;
-    margin: auto;
-    padding: 0;
-    width: 380px;
+  background-color: #fff;
+  behavior: url(/stylelint.config.js);
+  border: 1px solid #c7c7c7;
+  box-sizing: border-box;
+  height: 80%;
+  margin: auto;
+  padding: 0;
+  width: 380px;
 }
-
 
 /* styling the nav bar */
 
 .navigation {
-    align-items: center;
-    behavior: url(/stylelint.config.js);
-    box-sizing: border-box;
-    display: flex;
-    height: 60px;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 10px 30px;
-    text-align: left;
+  align-items: center;
+  behavior: url(/stylelint.config.js);
+  box-sizing: border-box;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 10px 30px;
+  text-align: left;
 }
 
 .have-account {
-    color: rgb(61, 60, 60);
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    line-height: 0.5em;
-    padding-left: 20px;
-    padding-top: 10px;
-    text-align: center;
+  color: rgb(61, 60, 60);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 0.5em;
+  padding-left: 20px;
+  padding-top: 10px;
+  text-align: center;
 }
-
 
 /* styling password recovery link */
 
 .recovery-link {
-    color: #0077c5;
-    padding: 0 10px;
+  color: #0077c5;
+  padding: 0 10px;
 }
 
 .recovery-link:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* styling the Sign In button */
 
 .sign-in-button {
-    background: #0077c5;
-    behavior: url(/stylelint.config.js);
-    border: 1px solid #4c4c4c;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: white;
-    height: 34px;
-    margin-right: 25px;
-    width: 100px;
+  background: #0077c5;
+  behavior: url(/stylelint.config.js);
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: white;
+  height: 34px;
+  margin-right: 25px;
+  width: 100px;
 }
 
 .sign-in-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .sign-in {
-    float: left;
-    margin-left: 10px;
-    text-align: right;
+  float: left;
+  margin-left: 10px;
+  text-align: right;
 }
-
 
 /* styling the logo */
 
 .intuit-logo {
-    display: flex;
-    height: 50px;
-    justify-content: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
 }
 
 .intuit-logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* styling the icons */
 
 .logos {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logos:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .mint {
-    width: 30px;
+  width: 30px;
 }
 
 .quickbook {
-    width: 30px;
+  width: 30px;
 }
 
 .turbo {
-    width: 30px;
+  width: 30px;
 }
 
-.logo-text{
-    padding: 0 12px 0 4px;
+.logo-text {
+  padding: 0 12px 0 4px;
 }
 
 i {
-    padding-left: 30px;
+  padding-left: 30px;
 }
-
 
 /* styling the form heading */
 
 .heading {
-    color: black;
-    display: flex;
-    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 25px;
-    justify-content: center;
-    margin-bottom: 0;
-    padding-top: 0;
+  color: black;
+  display: flex;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  margin-bottom: 0;
+  padding-top: 0;
 }
-
 
 /* styling the form sub-heading */
 
 .paragraph {
-    align-items: center;
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    justify-content: center;
+  align-items: center;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  justify-content: center;
 }
-
 
 /* styling learn more */
 
 .learn-more {
-    color: rgb(8, 64, 168);
-    font-size: 10px;
+  color: rgb(8, 64, 168);
+  font-size: 10px;
 }
 
 .learn-more:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* styling the form */
 
 form {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin: 0 30px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
 }
-
 
 /* styling the text input */
 
 .text-input {
-    behavior: url(/stylelint.config.js);
-    border: 1px solid grey;
-    border-radius: 3px;
-    box-sizing: border-box;
-    height: 30px;
-    margin-right: 10px;
-    width: 100%;
+  behavior: url(/stylelint.config.js);
+  border: 1px solid grey;
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 30px;
+  margin-right: 10px;
+  width: 100%;
 }
-
 
 /* styling the labels */
 
 .labels {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
-
 
 /* styling the texts below the phone input box */
 
 .phone-text {
-    font-size: 10px;
-    margin: 2px;
+  font-size: 10px;
+  margin: 2px;
 }
-
 
 /* styling the Create Account button */
 
 .account-button {
-    align-items: center;
-    background: #0077c5;
-    border: #0077c5;
-    border-radius: 4px;
-    border-width: 0.03rem;
-    box-sizing: border-box;
-    color: white;
-    display: flex;
-    font-size: 15px;
-    height: 44px;
-    justify-content: center;
-    width: 100%;
+  align-items: center;
+  background: #0077c5;
+  border: #0077c5;
+  border-radius: 4px;
+  border-width: 0.03rem;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  height: 44px;
+  justify-content: center;
+  width: 100%;
 }
 
 .account-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .lock {
-    width: 20px;
+  width: 20px;
 }
-
 
 /* styling the password lock icon */
 
 .custom-user {
-    background-image: url(./images/pass-unlock.png);
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 25px;
+  background-image: url(./images/pass-unlock.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 25px;
 }
-
 
 /* styling Terms and Privacy Statement */
 
 .terms {
-    align-items: center;
-    color: #757575;
-    display: flex;
-    font-size: 12px;
-    font-style: italic;
-    height: 140px;
-    justify-content: center;
-    text-align: center;
+  align-items: center;
+  color: #757575;
+  display: flex;
+  font-size: 12px;
+  font-style: italic;
+  height: 140px;
+  justify-content: center;
+  text-align: center;
 }
 
 .agreement {
-    color: rgb(8, 64, 168);
+  color: rgb(8, 64, 168);
 }
 
 .agreement:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* styling the Privacy Policy and Terms of Use */
 
 .policy {
-    align-items: center;
-    background-color: rgb(218, 221, 226);
-    display: flex;
-    font-size: 10px;
-    height: 50px;
-    justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 221, 226);
+  display: flex;
+  font-size: 10px;
+  height: 50px;
+  justify-content: center;
 }
 
 .privacy {
-    color: rgb(8, 64, 168);
+  color: rgb(8, 64, 168);
 }
 
 .privacy:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* styling the footer */
 
 footer {
-    height: 90px;
+  height: 90px;
 }
 
 .footer-buttons {
-    display: flex;
-    font-size: 10px;
-    justify-content: center;
-    padding-top: 20px;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+  padding-top: 20px;
 }
 
 .footer-buttons:hover {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
 
 .footer-info {
-    align-items: center;
-    color: grey;
-    display: flex;
-    font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    justify-content: center;
-    text-align: center;
+  align-items: center;
+  color: grey;
+  display: flex;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  justify-content: center;
+  text-align: center;
 }
-
 
 /* styling the Privacy Settings button */
 
 .privacy-settings {
-    background: #676969;
-    behavior: url(/stylelint.config.js);
-    border: 1px solid #676969;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: white;
-    cursor: pointer;
-    float: right;
-    font-size: 0.9em;
-    font-weight: normal;
-    height: 50px;
-    margin-right: 80px;
-    width: 100px;
+  background: #676969;
+  behavior: url(/stylelint.config.js);
+  border: 1px solid #676969;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  float: right;
+  font-size: 0.9em;
+  font-weight: normal;
+  height: 50px;
+  margin-right: 80px;
+  width: 100px;
 }
